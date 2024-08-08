@@ -1,0 +1,139 @@
+
+.chatbotContainer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1000; /* Ensure chatbot is on top */
+}
+
+.appChatbotButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1001; /* Ensure button is above the chatbot */
+}
+
+
+.appChatbotButton {
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+    background-color: #FFAB22;
+    border: none;
+    position: fixed;
+    bottom: 15px;
+    z-index: 9999;
+    right: 40px;
+  }
+
+.appChatbotButtonIcon {
+  /* Image icon styles */
+  width: 45px; /* Example: Set width */
+  height: 45px; /* Example: Set height */
+  /* Add any other styles you need */
+}
+
+.App {
+    text-align: center;
+  }
+  
+  .app-npm-install {
+    background: #286f65;
+    padding: 8px;
+    border-radius: 3px;
+    color: #fff;
+    width: 250px;
+    margin: 30px auto;
+  }
+  
+  p,
+  li {
+    line-height: 1.5;
+    margin: 1rem 0;
+  }
+  
+  .app-chatbot-container {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    z-index: 9999;
+    box-shadow: 5px 5px 13px rgba(91, 81, 81, 0.4);
+    border-radius: 5px;
+  }
+  
+  
+  
+  .app-quickstart-button {
+    color: #fff;
+    border: 1px solid #fff;
+    text-decoration: none;
+    padding: 10px;
+  
+    display: block;
+    margin: 30px auto;
+    width: 150px;
+  }
+  
+  
+  
+  .app-header {
+    color: #fff;
+  }
+  
+  .app-paragraph {
+    color: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .app-overview {
+    margin-top: 5rem;
+  }
+  
+  .app-overview-gist-container {
+    max-width: 500px;
+    margin: 2rem auto;
+  }
+  
+  .app-gists-link {
+    background-color: #53a88b;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    width: 250px;
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .app-gists-link-dark {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    width: 250px;
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    transition: background-color 0.4s ease;
+  }
+  
+  .app-gists-link-dark:hover {
+    background-color: #fff;
+    color: rgb(51, 96, 124);
+  }
+  
+  .gist {
+    max-width: 100%;
+  }
+  
+  @media (max-width: 600px) {
+    .app-chatbot-container {
+      transform: scale(0.9) translateY(26px);
+    }
+  }
+  

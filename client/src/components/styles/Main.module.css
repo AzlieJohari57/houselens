@@ -1,0 +1,127 @@
+.backgroundBanner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.backgroundImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Ensure the background image is behind other content */
+}
+
+.formContainer {
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  transform: translateY(-50%);
+  z-index: 1; /* Ensure the form is above the background image */
+  padding: 20px;
+  background: white; /* Optional: Add background to form for better visibility */
+  border-radius: 8px;
+}
+
+.formText {
+  font-size: 14px; /* Adjust font size */
+}
+
+.iconContainer {
+  text-align: center;
+  margin-top: -50px; /* Adjust as needed to position the icon at the top */
+}
+
+.logo {
+  max-width: 150px; /* Adjust logo size as needed */
+  margin-bottom: 10px;
+}
+
+.hrStyle  {
+  border: none; /* Remove the default border */
+  height: 3px; /* Set the thickness */
+  background-color: #1679AB !important; /* Set the color */
+  margin: 15px 0; /* Optional: add some margin for spacing */
+  opacity: 1;
+}
+
+.hrStyle2  {
+  border: none; /* Remove the default border */
+  height: 2px; /* Set the thickness */
+  background-color: #ffffff !important; /* Set the color */
+  margin: 15px 0; /* Optional: add some margin for spacing */
+  opacity: 1;
+}
+
+.revenueCard {
+  width: 100%;
+  height: 30rem;
+}
+
+.revenueCard1 {
+  width: 100%;
+  height: 25rem;
+}
+
+.predictionimg1{
+  width: 100%;
+  max-width: 500px; /* Set the maximum width as per your requirement */
+  height: auto;
+}
+
+
+.predictionicon1{
+  width: 100%;
+  max-width: 250px; /* Set the maximum width as per your requirement */
+  height: auto;
+}
+
+
+.textOverlay {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+.welcomeText {
+  top: 30%;
+  left: 9.5%;
+  font-size: 2rem;
+}
+
+.typewriterText {
+  top: 37%;
+  left: 9.5%;
+  font-size: 24px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 53%;
+  left: 9%;
+}
+
+.buttonContainer button {
+  margin: 0 10px;
+}
+
+/* Main.module.css */
+.buttonCustom {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.buttonCustom:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}

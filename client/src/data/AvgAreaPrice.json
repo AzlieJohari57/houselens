@@ -1,0 +1,42 @@
+[
+    {
+      "label": "KLCC",
+      "value": 2282345
+    },
+    {
+      "label": "Mont Kiara",
+      "value": 1874720
+    },
+    {
+      "label": "Bukit Jalil",
+      "value": 932634
+    },
+    {
+        "label": "Dutamas",
+        "value": 1200094
+      },
+      {
+        "label": "Cheras",
+        "value": 973018
+      },
+      {
+        "label": "Setapak",
+        "value": 996015
+      },
+      {
+        "label": "Klang",
+        "value": 990000
+      },
+      {
+        "label": "Bangsar",
+        "value": 883673
+      },
+      {
+        "label": "Ampang",
+        "value": 1259290
+      },
+      {
+        "label": "Setiawangsa",
+        "value": 1013226
+      }
+  ]

@@ -1,0 +1,35 @@
+/* Navbar.module.css */
+.navbarCustom {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    transition: background-color 0.3s ease;
+  }
+
+.navbarCustom:hover{
+  background-color: white !important;
+
+}
+
+/* Navbar.module.css */
+.navbarCustom2 {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.navbarCustom2:hover {
+  background-color: white !important;
+}
+  
+  .bgTransparent {
+    background-color: transparent !important;
+  }
+  
+  .bgWhite {
+    background-color: white !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow for better visual separation */
+  }
+  

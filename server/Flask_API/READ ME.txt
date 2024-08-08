@@ -1,0 +1,5 @@
+python -m pip install flask
+
+python main.py
+
+cd API/Flask_API

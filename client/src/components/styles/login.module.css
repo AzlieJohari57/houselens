@@ -1,0 +1,46 @@
+.loginbackground {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./background_login.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.loginContainer {
+  width: 100%;
+  max-width: 400px; /* Customize the width here */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.RegisterContainer {
+  width: 100%;
+  max-width: 560px; /* Customize the width here */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardcontainer{
+  width: 700px !important;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.loginInput {
+  margin-bottom: 15px;
+}
+
+.loginButton {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.card {
+  width: 100%;
+}
